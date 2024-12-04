@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Your Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle Light/Dark Mode">🌙/☀️</button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="projects" class="projects">
+      <h1>My Projects</h1>
+      <article class="project">
+        <h2>Project Title 1</h2>
+        <p>One of the main things that I did in my CSC-2001 Web design and development class was understanding and writing code. I understand that JavaScript is very complicated, and understanding how to make a personal webpage and change background colors.</p>
+      </article>
+
+      <article class="project">
+        <h2>Project Title 2</h2>
+        <p>Another project that I worked on was understanding GitHub. We worked a lot in GitHub and understanding how to use HTML files as well as style.css.</p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Andrew Moreland. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
 
